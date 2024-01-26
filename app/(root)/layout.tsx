@@ -9,9 +9,9 @@ import Bottombar from "@/components/shared/Bottombar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Threads',
-  description: 'A Next.js 13 Meta Threads Application'
-}
+  title: "Threads",
+  description: "A Next.js 13 Meta Threads Application",
+};
 
 export default function RootLayout({
   children,
@@ -38,8 +38,5 @@ export default function RootLayout({
         </body>
       </html>
     </ClerkProvider>
-
-
-
   );
 }
